@@ -8,6 +8,7 @@ variable "aws_region" {
 
 variable "vpc_name" {
   type = string
+  default = "ms-up-running"
 }
 
 variable "main_vpc_cidr" {
